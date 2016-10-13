@@ -15,9 +15,9 @@ describe('properties', function(){
   });
 })
 describe('squaresNumbers', function(){
-  var myobject = new myTests("James", "blue", 7);
+  var secondobj = new myTests("James", "blue", 7);
 
   it('squares', function(){
-    expect(myobject.favNumberSquared()).toEqual(49);
+    expect(secondobj.favNumberSquared()).toEqual(49);
   })
 })
