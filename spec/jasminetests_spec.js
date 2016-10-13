@@ -14,3 +14,10 @@ describe('properties', function(){
     expect(myobject.favNumber).not.toEqual(5);
   });
 })
+describe('squaresNumbers', function(){
+  var myobject = new myTests("James", "blue", 7);
+
+  it('squares', function(){
+    expect(myobject.favNumberSquared()).toEqual(49);
+  })
+})

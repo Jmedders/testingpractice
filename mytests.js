@@ -2,10 +2,9 @@ var myTests = function(firsty, colours, favNumber){
   this.firsty = firsty;
   this.colours = colours;
   this.favNumber = favNumber;
-}
-var newTests = function(lasty, spins, favMovie){
-  this.lasty = lasty;
-  this.spins = spins;
-  this.favNumber = favMovie;
-}
+  this.favNumberSquared = function(){
+    return this.favNumber * this.favNumber;
+  }
+};
+
 module.exports = myTests;
